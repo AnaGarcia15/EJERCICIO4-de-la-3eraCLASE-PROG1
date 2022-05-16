@@ -1,0 +1,9 @@
+frase = 'Hola Profesor'
+
+def centrar_texto(tira,cantidad):
+	print( 'Frase Original : '+ tira)
+	longitud= int((cantidad-len(tira)) /2)
+	print('Numero de Espacios Agregar' + str(longitud))
+	print(f"{tira : ^{cantidad}}")
+	
+centrar_texto(frase,40)
